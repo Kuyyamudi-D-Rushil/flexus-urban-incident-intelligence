@@ -7,6 +7,8 @@ import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
 
+from src.utils.paths import RAW_DIR
+
 
 ROOT = Path(__file__).resolve().parent
 PROCESSED = ROOT / "data" / "processed"
@@ -157,7 +159,22 @@ def load_data():
     if not path.exists():
         path = PROCESSED / "engineered_dataset.csv"
     if not path.exists():
-        st.error("Processed data not found. Run `python run_pipeline.py` first.")
+        raw_files = sorted(RAW_DIR.glob("*.csv"))
+        if raw_files:
+            with st.spinner("Preparing FLEXUS data artifacts for this deployment..."):
+                from run_pipeline import main as run_pipeline_main
+
+                run_pipeline_main()
+            path = PROCESSED / "dna_dataset.csv"
+        else:
+            st.error("Dataset artifacts are missing from this deployment.")
+            st.info(
+                "Streamlit Cloud does not have `data/processed/dna_dataset.csv` or a raw CSV in `data/raw/`. "
+                "Push either the processed artifacts, or the raw dataset CSV so the app can generate artifacts on startup."
+            )
+            st.stop()
+    if not path.exists():
+        st.error("FLEXUS data preparation did not create the expected processed dataset.")
         st.stop()
     df = pd.read_csv(path)
     if "start_datetime" in df.columns:

@@ -10,7 +10,6 @@ venv/
 
 # Data
 data/processed/
-data/raw/*.csv
 !data/raw/.gitkeep
 
 # Outputs
