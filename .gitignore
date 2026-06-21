@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Data
+data/processed/
+data/raw/*.csv
+!data/raw/.gitkeep
+
+# Outputs
+outputs/
+*.html
+*.png
+*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+!notebooks/*.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace

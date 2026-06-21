@@ -1,0 +1,18 @@
+Dna Analysis Report
+===================
+
+Summary
+-------
+Event DNA combines event cause, type, location, time, priority, road closure flag, vehicle type, and description text.
+
+Cluster Summary
+---------------
+dna_cluster  events         top_cause top_corridor       top_station  high_priority_rate  closure_rate  peak_hour_rate  common_hour
+           1    1321 vehicle_breakdown  Mysore Road   Byatarayanapura            1.000000           0.0        0.507192           20
+           3    1248 vehicle_breakdown  Mysore Road       Kodigehalli            1.000000           0.0        0.100962            4
+           0    1201 vehicle_breakdown Non-corridor No Police Station            0.000000           0.0        0.115737            6
+           7    1181 vehicle_breakdown  Mysore Road         Yelahanka            1.000000           0.0        0.113463            5
+           4     983 vehicle_breakdown   ORR East 1   HAL Old Airport            1.000000           0.0        0.397762           21
+           6     897 vehicle_breakdown Non-corridor        Jayanagara            0.000000           0.0        0.315496           21
+           2     676 vehicle_breakdown Non-corridor     Halasuru Gate            0.439349           1.0        0.204142            0
+           5     666 vehicle_breakdown Non-corridor         K.R. Pura            0.000000           0.0        0.292793           19

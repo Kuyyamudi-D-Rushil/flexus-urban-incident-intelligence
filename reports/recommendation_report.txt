@@ -1,0 +1,30 @@
+Recommendation Report
+=====================
+
+Summary
+-------
+Recommendations are rule-based and derived from observed hotspots, recurring causes, closure rates, and resilience scores.
+
+Recommendations
+---------------
+priority                  area                                             trigger                                                                                     recommendation
+    High          Non-corridor Hotspot 0 has 7176 incidents and 8.2% closure rate. Increase monitoring near Non-corridor / HAL Old Airport for recurring vehicle_breakdown incidents.
+  Medium           Mysore Road Hotspot 22 has 10 incidents and 40.0% closure rate.                     Increase monitoring near Mysore Road / Kengeri for recurring others incidents.
+  Medium           Mysore Road Hotspot 25 has 13 incidents and 30.8% closure rate.          Increase monitoring near Mysore Road / Kengeri for recurring vehicle_breakdown incidents.
+  Medium      Hennur Main Road  Hotspot 27 has 12 incidents and 0.0% closure rate.     Increase monitoring near Hennur Main Road / Hennuru for recurring vehicle_breakdown incidents.
+  Medium        Bellary Road 2  Hotspot 23 has 12 incidents and 0.0% closure rate.    Increase monitoring near Bellary Road 2 / Chikkajala for recurring vehicle_breakdown incidents.
+  Medium            ORR West 1   Hotspot 4 has 49 incidents and 0.0% closure rate.      Increase monitoring near ORR West 1 / Banashankari for recurring vehicle_breakdown incidents.
+  Medium        Bellary Road 2  Hotspot 19 has 14 incidents and 0.0% closure rate.    Increase monitoring near Bellary Road 2 / Chikkajala for recurring vehicle_breakdown incidents.
+  Medium          Non-corridor  Hotspot 8 has 67 incidents and 14.9% closure rate.              Increase monitoring near Non-corridor / Hennuru for recurring construction incidents.
+  Medium          Non-corridor             227 pothole-related incidents recorded.                       Schedule road-condition inspection and maintenance review for this corridor.
+  Medium            Hosur Road              60 pothole-related incidents recorded.                       Schedule road-condition inspection and maintenance review for this corridor.
+  Medium      Bannerghata Road              45 pothole-related incidents recorded.                       Schedule road-condition inspection and maintenance review for this corridor.
+  Medium IRR(Thanisandra road)              37 pothole-related incidents recorded.                       Schedule road-condition inspection and maintenance review for this corridor.
+  Medium            ORR East 1              26 pothole-related incidents recorded.                       Schedule road-condition inspection and maintenance review for this corridor.
+  Medium          Non-corridor                     Low resilience score: 53.2/100. Prioritize this area for patrol planning, recurring cause review, and incident response readiness.
+  Medium           Mysore Road                     Low resilience score: 58.0/100. Prioritize this area for patrol planning, recurring cause review, and incident response readiness.
+  Medium        Bellary Road 1                     Low resilience score: 60.7/100. Prioritize this area for patrol planning, recurring cause review, and incident response readiness.
+  Medium IRR(Thanisandra road)                     Low resilience score: 61.9/100. Prioritize this area for patrol planning, recurring cause review, and incident response readiness.
+  Medium      Bannerghata Road                     Low resilience score: 62.3/100. Prioritize this area for patrol planning, recurring cause review, and incident response readiness.
+  Medium          Non-corridor                         Road closure rate is 12.1%.                     Monitor closure-prone incidents and prepare diversion communication playbooks.
+  Medium          Varthur Road                         Road closure rate is 11.7%.                     Monitor closure-prone incidents and prepare diversion communication playbooks.

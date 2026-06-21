@@ -1,0 +1,20 @@
+Hotspot Report
+==============
+
+Summary
+-------
+Hotspots are detected from repeated incident coordinates using DBSCAN clustering.
+
+Top Hotspots
+------------
+hotspot_cluster  events  latitude  longitude  high_priority_rate  closure_rate     top_corridor         top_cause     top_station  risk_score
+               0    7176 12.987306  77.589328            0.676282      0.081800     Non-corridor vehicle_breakdown HAL Old Airport   73.543060
+              22      10 12.911699  77.483819            1.000000      0.400000      Mysore Road            others         Kengeri   33.076644
+              25      13 12.903865  77.470315            1.000000      0.307692      Mysore Road vehicle_breakdown         Kengeri   31.253484
+              27      12 13.057850  77.632640            1.000000      0.000000 Hennur Main Road vehicle_breakdown         Hennuru   25.091973
+              23      12 13.178812  77.637474            1.000000      0.000000   Bellary Road 2 vehicle_breakdown      Chikkajala   25.091973
+               4      49 12.925763  77.547627            0.857143      0.000000       ORR West 1 vehicle_breakdown    Banashankari   21.804129
+              19      14 13.191233  77.646867            0.785714      0.000000   Bellary Road 2 vehicle_breakdown      Chikkajala   19.750159
+               8      67 13.045496  77.643762            0.432836      0.149254     Non-corridor      construction         Hennuru   14.319487
+               7      11 13.022411  77.602059            0.000000      0.454545     Non-corridor           protest      R.T. Nagar    9.175218
+               5       8 12.939238  77.558547            0.000000      0.375000     Non-corridor         pot_holes    Basavanagudi    7.561315

@@ -1,0 +1,28 @@
+Executive Summary
+=================
+
+Dataset
+-------
+8,173 usable incident records from Astram event data_anonymized - Astram event data_anonymizedb40ac87.csv.
+
+What FLEXUS Does
+----------------
+FLEXUS analyzes urban incident patterns, identifies hotspots, clusters similar event DNA, estimates incident risk, scores corridor resilience, and generates rule-based operational recommendations.
+
+What FLEXUS Does Not Do
+-----------------------
+It does not predict traffic speed, volume, density, routes, or congestion propagation because those columns are not present in the dataset.
+
+Top Causes
+----------
+event_cause
+vehicle_breakdown    4896
+others                638
+pot_holes             537
+construction          480
+water_logging         458
+accident              365
+tree_fall             284
+road_conditions       170
+congestion            136
+public_event           84

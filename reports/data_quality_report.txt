@@ -1,0 +1,79 @@
+FLEXUS Data Quality Report
+============================
+
+Raw shape: 8,173 rows x 46 columns
+Cleaned shape: 8,173 rows x 46 columns
+Duplicate rows removed: 0
+
+Dataset conclusion:
+This is an urban incident/event log. It supports incident intelligence, hotspot analysis, event similarity, and incident-risk proxies. It does not support traffic speed, traffic-volume, route, or congestion simulation features.
+
+Columns:
+id, event_type, latitude, longitude, endlatitude, endlongitude, address, end_address, event_cause, requires_road_closure, start_datetime, end_datetime, status, authenticated, modified_datetime, map_file, direction, description, veh_type, veh_no, corridor, priority, cargo_material, reason_breakdown, age_of_truck, created_date, route_path, client_id, created_by_id, last_modified_by_id, assigned_to_police_id, citizen_accident_id, comment, police_station, meta_data, kgid, resolved_at_address, resolved_at_latitude, resolved_at_longitude, closed_by_id, closed_datetime, resolved_by_id, resolved_datetime, gba_identifier, zone, junction
+
+Missing values by column (%):
+- comment: 100.00%
+- map_file: 100.00%
+- meta_data: 100.00%
+- direction: 99.47%
+- resolved_at_address: 99.09%
+- resolved_at_latitude: 99.09%
+- resolved_by_id: 99.09%
+- resolved_datetime: 99.09%
+- resolved_at_longitude: 99.09%
+- assigned_to_police_id: 98.43%
+- citizen_accident_id: 98.43%
+- route_path: 98.32%
+- age_of_truck: 96.62%
+- reason_breakdown: 96.62%
+- cargo_material: 96.62%
+- end_datetime: 94.19%
+- endlatitude: 91.59%
+- end_address: 91.59%
+- endlongitude: 91.59%
+- junction: 69.29%
+- closed_datetime: 61.57%
+- closed_by_id: 61.57%
+- gba_identifier: 57.86%
+- zone: 57.86%
+- veh_no: 40.22%
+- veh_type: 40.21%
+- description: 16.64%
+- kgid: 3.17%
+- start_datetime: 1.42%
+- corridor: 0.24%
+- address: 0.04%
+- last_modified_by_id: 0.04%
+- priority: 0.02%
+- created_by_id: 0.02%
+- created_date: 0.02%
+- id: 0.00%
+- longitude: 0.00%
+- latitude: 0.00%
+- authenticated: 0.00%
+- status: 0.00%
+- event_cause: 0.00%
+- requires_road_closure: 0.00%
+- event_type: 0.00%
+- modified_datetime: 0.00%
+- client_id: 0.00%
+- police_station: 0.00%
+
+Start datetime coverage: 2023-11-09 19:24:48.154000+00:00 to 2024-04-08 17:11:42.780000+00:00
+Parseable start datetimes: 8,057
+
+Coordinate coverage:
+- Latitude range: 12.801041 to 13.267510
+- Longitude range: 77.308731 to 77.769403
+
+Top event causes:
+- vehicle_breakdown: 4,896
+- others: 638
+- pot_holes: 537
+- construction: 480
+- water_logging: 458
+- accident: 365
+- tree_fall: 284
+- road_conditions: 170
+- congestion: 136
+- public_event: 84

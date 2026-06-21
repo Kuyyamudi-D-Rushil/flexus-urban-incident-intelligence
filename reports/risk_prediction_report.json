@@ -1,0 +1,33 @@
+{
+  "target": "high_priority_flag",
+  "accuracy": 0.9985322896281801,
+  "roc_auc": 0.9997208703989126,
+  "cv_f1_mean": 0.9982147766865559,
+  "cv_f1_std": 0.0009186757963238697,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       786\n           1       1.00      1.00      1.00      1258\n\n    accuracy                           1.00      2044\n   macro avg       1.00      1.00      1.00      2044\nweighted avg       1.00      1.00      1.00      2044\n",
+  "confusion_matrix": [
+    [
+      783,
+      3
+    ],
+    [
+      0,
+      1258
+    ]
+  ],
+  "features": [
+    "event_type",
+    "event_cause",
+    "corridor",
+    "police_station",
+    "veh_type",
+    "weekday",
+    "latitude",
+    "longitude",
+    "hour",
+    "month",
+    "is_peak_hour",
+    "is_weekend",
+    "description_clean"
+  ]
+}
